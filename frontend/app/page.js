@@ -82,7 +82,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const router = useRouter();
 
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+  const API_URL = process.env.NEXT_PUBLIC_API_URL;;
 
   useEffect(() => {
     const fetchUserAndData = async () => {
